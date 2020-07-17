@@ -14,8 +14,6 @@ $result = json_decode($response);
 
 $output = '';
 
-// display table data onto the web page
-
 if(count($result) > 0)
 {
  foreach($result as $row)
